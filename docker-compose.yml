@@ -4,6 +4,6 @@ services:
   movies:
     image: aslamm033/new:latest
     ports:
-      - "81:80"
+      - 81:80
     deploy:
       replicas: 3

@@ -8,4 +8,4 @@ services:
          deploy:
          replicas : 3
 
-sh 'docker stack deploy -c docker-compose.yml as'
+

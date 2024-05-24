@@ -1,1 +1,11 @@
 
+version: '3.8'
+services:
+    movies:
+        image:aslamm033/new:latest
+        ports:
+            -  81 : 80
+         deploy:
+         replicas : 3
+
+sh 'docker stack deploy -c docker-compose.yml as'

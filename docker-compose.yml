@@ -1,4 +1,5 @@
-version:'3.8'
+
+version: '3.8'
 services:
   movies:
     image: aslamm033/new:latest
@@ -6,4 +7,3 @@ services:
       - "81:80"
     deploy:
       replicas: 3
-

@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-    movies:
-    image:aslamm033/new:latest
-      ports:
-      -  "81:80"
-      deploy:
-       repicas : 3
+  movies:
+    image: aslamm033/new:latest
+    ports:
+      - "81:80"
+    deploy:
+      replicas: 3
